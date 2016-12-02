@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Clear Data</title>
+	<script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/options.js"></script>
+  </head>
+  <body>
+  <!-- visit: https://github.com/hangdra/Chrome-Cleaner.git  to get this chrome extension source code  -->
+    <h1>
+      自动清理浏览器数据设置
+    </h1>
+    <h2>清空项</h2>
+    <form id="options">
+      <input type="checkbox" name="appcache" checked/>
+      appcache
+	  </br>
+	   <input type="checkbox" name="cache" checked/>
+	   cache
+	   </br>
+	   <input type="checkbox" name="cookies" checked/>
+	   cookies
+	   </br>
+	   <input type="checkbox" name="downloads" checked/>
+	   downloads
+	   </br>
+	   <input type="checkbox" name="fileSystems" checked/>
+	   fileSystems
+	   </br>
+	   <input type="checkbox" name="formData" checked/>
+	   formData
+	   </br>
+	   <input type="checkbox" name="history" checked/>
+	   history
+	   </br>
+	   <input type="checkbox" name="indexedDB" checked/>
+	   indexedDB
+	   </br>
+	   <input type="checkbox" name="localStorage" checked/>
+	   localStorage
+	   </br>
+	   <input type="checkbox" name="pluginData" checked/>
+	   pluginData
+	   </br>
+	   <input type="checkbox" name="passwords" checked/>
+	   passwords
+	   </br>
+	   <input type="checkbox" name="webSQL" checked/>
+	   webSQL
+    </form>
+	<p>清楚多少时间前到现在的数据，单位小时 ,可以使用*符号表示乘积例如（7*24)</p><input type="text" id="cleartime" name="cleartime" ></input>
+	</br>
+	 <input type="checkbox" id="needConfirm" checked/>
+	   清空数据前是否需要用户确认
+
+	   </br>
+	   <input type='button' style="margin:20px 30px" value='交个朋友吧' title='真的是交朋友哦~找呀找呀找朋友，找到一个好朋友，后面太污自行理会' id="fxxkwithme"/>
+	   <img style='display:none;width:300px;' id="fi" title='一毛、两毛不嫌少，1块、2块不嫌多~' src='image/alipay.png'></img>
+  </body>
+</html>

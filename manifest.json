@@ -1,0 +1,20 @@
+{
+  "name": "Chrome data cleaner",
+  "version": "2.1",
+  "permissions": [
+    "activeTab","notifications","browsingData"
+  ],
+  "description":"To help u easy remove your browser data~",
+  "icons": { "16": "image/clear.png",
+           "48": "image/clear.png",
+          "128": "image/clear.png" },
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "clear use data"
+  },
+  "manifest_version": 2
+}
